@@ -31337,7 +31337,7 @@ _.a=null
 _.b=c
 _.c=null},
 aN9:function aN9(a){this.a=a},
-aN7:function aN7(a){this.a=a},
+aN7:function aN7(){},
 aN5:function aN5(){},
 aN6:function aN6(){},
 aN8:function aN8(a){this.a=a},
@@ -104585,7 +104585,7 @@ this.e.zs(s.gcT(s).a.c.a.a)},
 I(a){return A.abV(new A.aN9(this),t.F7)}}
 A.aN9.prototype={
 $3(a,b,c){var s=null,r=this.a.a.c,q=A.bl(40),p=t.p
-q=A.bN(A.a([A.bJ(s,A.W(s,A.bd(A.a([A.bu(B.oy,B.h,s,15),A.aB("set Location",s,s,s,A.aS(s,s,B.h,s,s,s,s,s,s,s,s,12,s,s,B.eg,s,s,!0,s,s,s,s,s,s,s,s),s,s)],p),B.m,B.p,B.l),B.e,s,s,new A.ar(r,s,s,q,s,s,B.n),s,s,s,s,new A.X(8,5,8,5),s,s,s),B.t,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.aN7(b),s,s,s,s,s,s)],p),B.bK,B.p,B.l)
+q=A.bN(A.a([A.bJ(s,A.W(s,A.bd(A.a([A.bu(B.oy,B.h,s,15),A.aB("set Location",s,s,s,A.aS(s,s,B.h,s,s,s,s,s,s,s,s,12,s,s,B.eg,s,s,!0,s,s,s,s,s,s,s,s),s,s)],p),B.m,B.p,B.l),B.e,s,s,new A.ar(r,s,s,q,s,s,B.n),s,s,s,s,new A.X(8,5,8,5),s,s,s),B.t,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.aN7(),s,s,s,s,s,s)],p),B.bK,B.p,B.l)
 r=A.bl(50)
 return A.bd(A.a([q,A.bJ(s,A.W(s,A.aRw(A.bl(50),A.all("images/super.png")),B.e,s,s,new A.ar(B.dB,s,s,r,s,s,B.n),s,30,s,s,s,s,s,30),B.t,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.aN8(a),s,s,s,s,s,s)],p),B.bK,B.aW,B.l)},
 $C:"$3",
@@ -104593,7 +104593,7 @@ $R:3,
 $S:702}
 A.aN7.prototype={
 $0(){var s,r,q,p
-try{s=A.dH("https://corsproxy.io/?https://maps.googleapis.com/maps/api/distancematrix/json?origins=0,0&destinations=Ejisu&mode=driving&key=AIzaSyDG9-0pleth0NLxiVp06fMDXzV4GmLV-aU",0,null)
+try{s=A.dH("https://corsproxy.io/?https://maps.googleapis.com/maps/api/distancematrix/json?origins=5.614818,-0.205874&destinations=Ejisu&mode=driving&key=AIzaSyDG9-0pleth0NLxiVp06fMDXzV4GmLV-aU",0,null)
 q=t.N
 A.aPG(s,A.M(["Access-Control-Allow-Origin","*","Content-Type","text/plain","Accept","*/*"],q,q)).b0(0,new A.aN5(),t.P).jd(new A.aN6())}catch(p){r=A.aa(p)
 A.cU("Error outside http.get: "+A.e(r))}},
@@ -104655,7 +104655,7 @@ s=A.aq(a)
 r=A.bl(10)
 q=t.p
 p=this.e.e
-return A.lU(o,B.h,A.W(o,A.Sw(A.a([A.W(o,A.bN(A.a([n,new A.zo(m.fy,o),l,k,j,A.W(B.r,A.bd(A.a([g,f,A.W(o,A.bu(B.oB,B.h,o,25),B.e,o,o,new A.ar(s.fy,o,o,r,o,o,B.n),o,40,o,o,new A.X(3,3,3,3),o,o,40)],q),B.m,B.p,B.l),B.e,o,o,new A.ar(i.as,o,o,h,o,o,B.n),o,55,o,o,new A.X(10,10,10,10),o,o,o)],q),B.m,B.p,B.l),B.e,o,o,o,o,o,o,new A.X(20,0,20,0),o,o,o,o),p,new A.vZ("none",o),p,new A.Fy(o),p,new A.Bg(o),A.aO(o,30,o)],q),o,B.ae),B.e,B.n6,o,o,o,o,o,o,o,o,o,o))}}
+return A.lU(o,B.h,A.W(o,A.Sw(A.a([A.W(o,A.bN(A.a([n,new A.zo(m.fy,o),l,k,j,A.W(B.r,A.bd(A.a([g,f,A.W(o,A.bu(B.oB,B.h,o,25),B.e,o,o,new A.ar(s.fy,o,o,r,o,o,B.n),o,40,o,o,new A.X(3,3,3,3),o,o,40)],q),B.m,B.p,B.l),B.e,o,o,new A.ar(i.as,o,o,h,o,o,B.n),o,55,o,o,new A.X(10,10,10,10),o,o,o)],q),B.m,B.p,B.l),B.e,o,o,o,o,o,o,new A.X(20,0,20,0),o,o,o,o),p,new A.vZ("none",o),p,new A.Fy(o),A.aO(o,10,o),new A.Bg(o)],q),o,B.ae),B.e,B.n6,o,o,o,o,o,o,o,o,o,o))}}
 A.C6.prototype={
 a5(){return new A.Z_([],B.k)}}
 A.Z_.prototype={
